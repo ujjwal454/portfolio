@@ -67,7 +67,7 @@ const Project = () => {
       name: "Amazon Clone",
       img: amazon,
       link: "https://github.com/ujjwal454/amazon-clone",
-      desc: "This is a e-commerce website and a clone of amazon I have build this website using react material-ui redux axios and firebase for the user authantication ",
+      desc: "This is a e-commerce website and a clone of amazon I have build this website using react material-ui redux  and firebase for the user authentication ",
     },
     {
       id: 2,
@@ -81,7 +81,7 @@ const Project = () => {
       name: "Blogs App",
       img: blog,
       link: "https://github.com/ujjwal454/Blogs-App",
-      desc: "This is the Blogs website  users can post view thier and other  blogs I have used material ui react redux firebase  with the help of firebase i have integrated authantication and storing user data to the firebase database ",
+      desc: "This is the Blogs website  users can post view thier and other  blogs I have used material ui react redux firebase  with the help of firebase i have integrated authentication and storing user data to the firebase database ",
     },
     // {
     //   id: 4,
