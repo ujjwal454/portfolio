@@ -57,7 +57,7 @@ const Home = () => {
             variant="h4"
             className={darkMode ? classes.darkText : classes.text}
           >
-            I'm UJJWAL GUPTA - curious front-end web devloper based in New
+            I'm UJJWAL GUPTA - curious front-end web developer based in New
             Delhi, India.
           </Typography>
           <Button

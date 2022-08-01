@@ -121,6 +121,9 @@ const Contact = () => {
         );
     }
   };
+  const handleRedirect = (url) => {
+    window.open(url, "_blank");
+  };
   return (
     <Container>
       <Grid container>
@@ -149,9 +152,15 @@ const Contact = () => {
           <div className={darkMode ? classes.darkFlex : classes.flex}>
             <GitHubIcon
               className={darkMode ? classes.darkIcon : classes.icon}
+              onClick={() => handleRedirect("https://github.com/ujjwal454")}
             />
             <LinkedInIcon
               className={darkMode ? classes.darkIcon : classes.icon}
+              onClick={() =>
+                handleRedirect(
+                  "https://www.linkedin.com/in/ujjwal-gupta-63a2b3201/"
+                )
+              }
             />
           </div>
         </Grid>
